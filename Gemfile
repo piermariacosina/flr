@@ -18,6 +18,9 @@ end
 
 group :misc do
   # Add your extra gems here
-  # gem 'susy', require: 'susy'
+  gem 'susy', require: 'susy'
   # gem 'redcarpet', require: 'redcarpet'
+	gem 'compass-h5bp'
+	gem 'oily_png'
+	gem 'mini_magick'
 end

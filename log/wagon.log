@@ -27,3 +27,93 @@ Completed 200 OK in 3.0ms
 
 
 * Reloaded "pages", "snippets" at 2013-09-08 15:51:03 +0200
+Started GET "/" at 2013-09-08 15:52:16 +0200
+Detecting locale EN
+Found page "Index" [index]
+  Rendered snippet metatags
+  Rendered snippet favicons
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.2ms
+
+
+Started GET "/favicon.png" at 2013-09-08 15:52:18 +0200
+Detecting locale EN
+Page not found
+  Rendered snippet metatags
+  Rendered snippet favicons
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.7ms
+
+
+Started GET "/apple-touch-icon-original.png" at 2013-09-08 15:52:18 +0200
+Detecting locale EN
+Page not found
+  Rendered snippet metatags
+  Rendered snippet favicons
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.5ms
+
+
+Started GET "/" at 2013-09-08 15:53:10 +0200
+Detecting locale EN
+Found page "Index" [index]
+  Rendered snippet metatags
+  Rendered snippet favicons
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 6.2ms
+
+
+Started GET "/favicon.png" at 2013-09-08 15:53:11 +0200
+Detecting locale EN
+Page not found
+  Rendered snippet metatags
+  Rendered snippet favicons
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.8ms
+
+
+Started GET "/apple-touch-icon-original.png" at 2013-09-08 15:53:11 +0200
+Detecting locale EN
+Page not found
+  Rendered snippet metatags
+  Rendered snippet favicons
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.8ms
+
+
+Started GET "/" at 2013-09-08 15:53:23 +0200
+Detecting locale EN
+Found page "Index" [index]
+  Rendered snippet metatags
+  Rendered snippet favicons
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.6ms
+
+
+Started GET "/favicon.png" at 2013-09-08 15:53:24 +0200
+Detecting locale EN
+Page not found
+  Rendered snippet metatags
+  Rendered snippet favicons
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 6.9ms
+
+
+Started GET "/apple-touch-icon-original.png" at 2013-09-08 15:53:24 +0200
+Detecting locale EN
+Page not found
+  Rendered snippet metatags
+  Rendered snippet favicons
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.7ms
+
+

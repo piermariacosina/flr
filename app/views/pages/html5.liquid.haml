@@ -1,0 +1,73 @@
+---
+title: Html5
+
+# true if the page is included in the menu
+listed: false
+
+# true if the page is published
+published: true
+
+# position among sibling pages
+# position: 1
+
+# sets a redirection to the given url (301)
+# redirect_url: "<url to a page or to a remote url>"
+
+# content type that this page is templatizing
+# content_type: "<slug of one of the content types>"
+
+# editable_elements:
+#   'some_block/some_slug': "<text>"
+#   'some_block/some_slug': "<relative path to the file under the public/samples folder>"
+---
+{% block html %}
+!!!5
+/[if lt IE 7] <html class="no-js lt-ie9 lt-ie8 lt-ie7">
+/[if IE 7] <html class="no-js lt-ie9 lt-ie8">
+/[if IE 8] <html class="no-js lt-ie9">
+%html.no-js{:lang => "en"}
+  %head
+
+    %title {{ page.title }}
+    / METATAGS
+    {% block metatags %}
+    {% include metatags %}
+    {% endblock %}
+    / FAVICONS
+    {% block favicons %}
+    {% include favicons %}
+    {% endblock %}
+
+    <!-- For Google+ bidirectional linking -->
+    -#%link{ :href=>"https://plus.google.com/103695675753742819996", :rel=>"publisher" }
+
+
+
+    / CSS
+    {% block stylesheets %}
+    {{ 'site.css' | stylesheet_tag }}
+    /[if IE 7]
+      {{ 'fonts/font-awesome-ie7.css' | stylesheet_tag }}
+    {% endblock %}
+
+    / JAVASCRIPTS
+    {% block javascripts %}
+    / HTML5 shim, for IE6-8 support of HTML5 elements
+    /[if lt IE 9]
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    {{ 'vendor/modernizr.js' | javascript_tag }}
+    :javascript
+      var analytics=analytics||[];(function(){var e=["identify","track","trackLink","trackForm","trackClick","trackSubmit","page","pageview","ab","alias","ready","group"],t=function(e){return function(){analytics.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var n=0;n<e.length;n++)analytics[e[n]]=t(e[n])})(),analytics.load=function(e){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src=("https:"===document.location.protocol?"https://":"http://")+"d2dq2ahtl5zl1z.cloudfront.net/analytics.js/v1/"+e+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n)};
+      analytics.load("45pabeyvy9");
+    {% endblock %}
+
+    {% inline_editor %}
+  %body
+    {% block container %}
+    {% block main %}
+    {% endblock %}
+    {% block footer %}
+    {% include footer %}
+    {% endblock %}
+    {% endblock %}
+{% endblock %}

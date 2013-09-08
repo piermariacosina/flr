@@ -1,80 +1,51 @@
 ---
-title: Home page
+title: Index
+
+# true if the page is included in the menu
+listed: true
+
+# true if the page is published
 published: true
+
+# position among sibling pages
+# position: 1
+
+# sets a redirection to the given url (301)
+# redirect_url: "<url to a page or to a remote url>"
+
+# content type that this page is templatizing
+# content_type: "<slug of one of the content types>"
+
+# editable_elements:
+#   'some_block/some_slug': "<text>"
+#   'some_block/some_slug': "<relative path to the file under the public/samples folder>"
 ---
-!!!
-%html{:lang => "en"}
-  %head
-    %meta{:charset => "utf-8"}
+{% extends html5 %}
 
-    %title {{ page.title }}
+{% block main %}
+.page
+  #logo
+    Flavialarocca
+  %h1.desc
+    We are crafting a completely new exciting website and digital image to enhance the value of the upcoming Fall/Winter collection. In the meanwhile follow us on
 
-    %meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}
-    %meta{:content => "{{ site.meta_description }}", :name => "description"}
-    %meta{:content => "{{ site.meta_keywords }}", :name => "keywords"}
-
-    / Fonts
-    {{ 'fonts/awesome.css' | stylesheet_tag }}
-    {{ 'fonts/font-awesome.css' | stylesheet_tag }}
-    /[if IE 7]
-      {{ 'fonts/font-awesome-ie7.min.css' | stylesheet_tag }}
-
-    / Le styles
-    {{ 'bootstrap.css' | stylesheet_tag }}
-    {{ 'bootstrap-responsive.css' | stylesheet_tag }}
-    {{ 'application.css' | stylesheet_tag }}
-
-    / HTML5 shim, for IE6-8 support of HTML5 elements
-    /[if lt IE 9]
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-
-    {% inline_editor %}
-  %body
-
-    .container-narrow
-      .masthead
-        %ul.nav.nav-pills.pull-right
-          %li.active
-            %a{:href => "/"} Home
-          %li
-            %a{:href => "/about"} About
-          %li
-            %a{:href => "/contact"} Contact
-        %h3.muted {{ site.name }}
-
-      %hr
-
-      {% block 'main' %}
-      .jumbotron
-        %h1 Super awesome marketing speak!
-        %p.lead Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-        %a.btn.icon-flag.btn-large.btn-success{:href => "#"} Sign up today
-
-      %hr
-
-      .row-fluid.marketing
-        .span6
-          %h4 Subheading
-          %p Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.
-          %h4 Subheading
-          %p Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.
-          %h4 Subheading
-          %p Maecenas sed diam eget risus varius blandit sit amet non magna.
-        .span6
-          %h4 Subheading
-          %p Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.
-          %h4 Subheading
-          %p Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.
-          %h4 Subheading
-          %p Maecenas sed diam eget risus varius blandit sit amet non magna.
-      {% endblock %}
-      %hr
-
-      {% include footer %}
-    / /container
-    /
-      Le javascript
-      \==================================================
-    / Placed at the end of the document so the pages load faster
-    %script{:src => "//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"}
-    {{ 'bootstrap.js' | javascript_tag }}
+  #frame
+    {{ 'foto.jpg' | image_tag: 'alt:woman walking with Flavilarocca coat' }}
+  #nav
+    %a.button.fb{:href=>"https://www.facebook.com/pages/_flavialarocca_/117027831737823?fref=ts"}
+      %span
+        _flavialarocca_ facebook
+      %i.icon-facebook
+    %a.button.in{:href=>"http://instagram.com/flavialarocca_"}
+      %span
+        flavialarocca_ instagram
+      %i.icon-instagram
+  #footer
+    %span#holder
+      Flavia La Rocca
+    %span#pi
+      P.I 11577371005
+    %span#mail
+      %a{:href=>"mailto:info@flavialarocca.com"}
+        info@flavialarocca.com
+{% endblock %}

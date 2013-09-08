@@ -15,6 +15,7 @@
     <file path="/config.ru" changelist="251e2721-4e1c-4745-87bc-1e2b83b7d5f8" time="1378636752902" ignored="false" />
     <file path="/site.yml" changelist="251e2721-4e1c-4745-87bc-1e2b83b7d5f8" time="1378648225999" ignored="false" />
     <file path="/comingsoon.liquid.haml" changelist="251e2721-4e1c-4745-87bc-1e2b83b7d5f8" time="1378643826309" ignored="false" />
+    <file path="/index.liquid.haml" changelist="251e2721-4e1c-4745-87bc-1e2b83b7d5f8" time="1378648315444" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,10 +44,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="site.yml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="site.yml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/site.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="19" selection-start="223" selection-end="223" vertical-scroll-proportion="0.2446675">
+            <state line="13" column="19" selection-start="223" selection-end="223" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.liquid.haml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/pages/index.liquid.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="0" selection-start="572" selection-end="1349" vertical-scroll-proportion="0.4276316">
               <folding />
             </state>
           </provider>
@@ -73,7 +83,7 @@
       <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="25" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0">
+            <state line="20" column="2" selection-start="498" selection-end="498" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -93,7 +103,6 @@
         <option value="$PROJECT_DIR$/app/views/snippets/html5.haml" />
         <option value="$PROJECT_DIR$/app/views/snippets/favicons.liquid.haml" />
         <option value="$PROJECT_DIR$/app/views/snippets/metatags.liquid.haml" />
-        <option value="$PROJECT_DIR$/app/views/pages/index.liquid.haml" />
         <option value="$PROJECT_DIR$/public/stylesheets/site.css.sass" />
         <option value="$PROJECT_DIR$/public/stylesheets/fonts/font-awesome.scss" />
         <option value="$PROJECT_DIR$/app/views/snippets/comingsoon.liquid.haml" />
@@ -101,10 +110,11 @@
         <option value="$PROJECT_DIR$/app/views/pages/html5.liquid.haml" />
         <option value="$PROJECT_DIR$/app/views/pages/comingsoon.liquid.haml" />
         <option value="$PROJECT_DIR$/config/translations.yml" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/log/wagon.log" />
         <option value="$PROJECT_DIR$/config/deploy.yml" />
         <option value="$PROJECT_DIR$/config/site.yml" />
+        <option value="$PROJECT_DIR$/app/views/pages/index.liquid.haml" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -224,6 +234,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -377,13 +391,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="25" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/deploy.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="8" selection-start="345" selection-end="345" vertical-scroll-proportion="0.0">
@@ -393,7 +400,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/site.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="19" selection-start="223" selection-end="223" vertical-scroll-proportion="0.2446675">
+        <state line="13" column="19" selection-start="223" selection-end="223" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="2" selection-start="498" selection-end="498" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pages/index.liquid.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="0" selection-start="572" selection-end="1349" vertical-scroll-proportion="0.4276316">
           <folding />
         </state>
       </provider>
