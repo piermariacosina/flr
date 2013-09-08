@@ -1,8 +1,8 @@
 development:
-  host: dev.example.com
-  email: john@doe.net
-  password: apassword
-  # api_key: <your api key here>
+  host: 0.0.0.0:8080
+  email: piermaria.cosina@gmail.com
+  password: ricordo2
+  api_key: 5693ee147fdb876e93a381c4ddcc711fe2598e2b
 staging:
   host: staging.example.com
   email: john@doe.net

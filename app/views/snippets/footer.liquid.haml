@@ -1,2 +1,8 @@
-.footer
-  %p &copy; Company {{ now | localized_date: '%Y' }}
+#footer
+  %span#holder
+    Flavia La Rocca &copy; Company {{ now | localized_date: '%Y' }}
+  %span#pi
+    P.I 11577371005
+  %span#mail
+    %a{:href=>"mailto:info@flavialarocca.com"}
+      info@flavialarocca.com

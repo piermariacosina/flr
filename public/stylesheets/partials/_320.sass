@@ -1,0 +1,83 @@
+$grey: #939598
+$blue: #307590
+$cipria: #BC8E8E
+
+.page
+	+clearfix
+	+container($total-columns, $break-1, $break-2,$break-3)
+
+
+#logo
+	+replace-text-with-dimensions("logo.png")
+	margin-bottom: 20px
+	margin-top: 20px
+h1,p,div.button
+	font-family: "helvetica neue",helvetica, arial, sans-serif
+
+h1.desc
+	font-size: px-to-em(16px,16px)
+	font-weight: normal
+	color: $grey
+	margin-bottom: 20px
+	+span-columns(6,7)
+	position: relative
+
+#frame
+	background-color: $cipria
+	position: relative
+	height: 260px
+	margin-bottom: -10px
+	display: inline
+	width: 320px
+	+float-left
+	img
+		margin: 0 auto 0 auto
+		padding-top: 26px
+		position: relative
+		width: 280px
+		height: 280px
+		display: block
+a.button i
+	color: white
+	display: block
+	height: 50px
+	width: 100%
+	position: absolute
+	text-align: center
+	top: 30px
+	display: none
+	font-size: px-to-em(32px,16px)
+a.button
+	text-decoration: none
+	position: relative
+	border: 3px solid $blue
+	+background-clip("border-box")
+	height: 96px
+	cursor: pointer
+	margin-bottom: 10px
+	+span-columns(4,7)
+	&:hover,&.selected
+		background-color: $blue
+		i
+			display: block
+
+	span
+		font-size: px-to-em(20px,16px)
+		color: $blue
+		display: block
+		padding: 27px
+
+
+#footer
+	margin-top: 30px
+	margin-bottom: 30px
+	+span-columns(7,7)
+	span
+		font-size: px-to-em(12px,16px)
+		font-weight: normal
+		color: $grey
+		+span-columns(7,7)
+		a
+			color: $grey
+			&:hover
+				color: $blue

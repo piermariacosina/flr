@@ -13,7 +13,7 @@
     <file path="/metatags.liquid.haml" changelist="251e2721-4e1c-4745-87bc-1e2b83b7d5f8" time="1378634519599" ignored="false" />
     <file path="/site.css.sass" changelist="251e2721-4e1c-4745-87bc-1e2b83b7d5f8" time="1378635975693" ignored="false" />
     <file path="/config.ru" changelist="251e2721-4e1c-4745-87bc-1e2b83b7d5f8" time="1378636752902" ignored="false" />
-    <file path="/site.yml" changelist="251e2721-4e1c-4745-87bc-1e2b83b7d5f8" time="1378644034401" ignored="false" />
+    <file path="/site.yml" changelist="251e2721-4e1c-4745-87bc-1e2b83b7d5f8" time="1378648225999" ignored="false" />
     <file path="/comingsoon.liquid.haml" changelist="251e2721-4e1c-4745-87bc-1e2b83b7d5f8" time="1378643826309" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,13 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="site.yml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="site.yml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/site.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0">
-              <folding>
-                <marker date="1378647917000" expanded="true" signature="90:140" placeholder="domains:" />
-              </folding>
+            <state line="13" column="19" selection-start="223" selection-end="223" vertical-scroll-proportion="0.2446675">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -63,10 +61,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="deploy.yml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="deploy.yml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/deploy.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="8" selection-start="316" selection-end="316" vertical-scroll-proportion="0.26348808">
+            <state line="14" column="8" selection-start="345" selection-end="345" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -103,10 +101,10 @@
         <option value="$PROJECT_DIR$/app/views/pages/html5.liquid.haml" />
         <option value="$PROJECT_DIR$/app/views/pages/comingsoon.liquid.haml" />
         <option value="$PROJECT_DIR$/config/translations.yml" />
-        <option value="$PROJECT_DIR$/config/site.yml" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/log/wagon.log" />
         <option value="$PROJECT_DIR$/config/deploy.yml" />
+        <option value="$PROJECT_DIR$/config/site.yml" />
       </list>
     </option>
   </component>
@@ -372,15 +370,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/site.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1378647917000" expanded="true" signature="90:140" placeholder="domains:" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config.ru">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="13" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0">
@@ -397,7 +386,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/deploy.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="8" selection-start="316" selection-end="316" vertical-scroll-proportion="0.26348808">
+        <state line="14" column="8" selection-start="345" selection-end="345" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/site.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="19" selection-start="223" selection-end="223" vertical-scroll-proportion="0.2446675">
           <folding />
         </state>
       </provider>

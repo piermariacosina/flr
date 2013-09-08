@@ -1,1 +1,29 @@
 # Logfile created on 2013-09-08 15:46:19 +0200 by logger.rb/1.2.8
+Started GET "/comingsoon" at 2013-09-08 15:49:12 +0200
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 5.5ms
+
+
+Started GET "/" at 2013-09-08 15:49:51 +0200
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.1ms
+
+
+* Reloaded "site", "content_types", "pages", "snippets", "content_entries", "translations" at 2013-09-08 15:50:19 +0200
+* Reloaded "site", "content_types", "pages", "snippets", "content_entries", "translations" at 2013-09-08 15:50:24 +0200
+* Reloaded "site", "content_types", "pages", "snippets", "content_entries", "translations" at 2013-09-08 15:50:25 +0200
+Started GET "/" at 2013-09-08 15:50:41 +0200
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.0ms
+
+
+* Reloaded "pages", "snippets" at 2013-09-08 15:51:03 +0200

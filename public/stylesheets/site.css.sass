@@ -1,0 +1,29 @@
+@import compass
+@import h5bp
+@import "compass/layout/stretching"
+
++h5bp-normalize
++h5bp-chromeframe
++establish-baseline
+
+$legacy-support-for-ie: true
+
+//$assets-layout:smart
+//$assets: sprite-map("assets/*.png")
+
+
+@import partials/custom_mixin
+@import partials/grid
+@import fonts/font-awesome
+@import partials/general
+
+@import partials/320
+@import partials/480
+@import partials/640
+@import partials/960
+@import partials/1280
+
+body
+	-webkit-font-smoothing: antialiased
+	-webkit-overflow-scrolling: touch
+  

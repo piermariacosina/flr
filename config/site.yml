@@ -1,16 +1,16 @@
 # TODO: explain it
-name: flr
+name: flavilarocca
 
 # TODO: explain it
 # subdomain: sample
 
 # TODO: explain it
-# domains: [www.example.com, example.com]
+domains: [www.flavialarocca.com, flavialarocca.com]
 
 # TODO: explain it
 locales: [en]
 
 # TODO: explain it
-seo_title: flr
+seo_title: flavialarocca
 meta_keywords: "some meta keywords"
 meta_description: "some meta description"
