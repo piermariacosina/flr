@@ -600,10 +600,17 @@ iframe,embed,object
       margin-top: 0
       margin-bottom: 0
       font-size: px-to-em(18px,16px)
+      &.price
+        font-size: px-to-em(30px,16px)
+        margin-bottom: 10px
+        color: $blue
+
     p
       font-size: px-to-em(14px,16px)
       color: $dark-grey
       +span-columns(6,7)
+      margin-top: 0.2em
+      line-height: px-to-em(18px,16px)
     button
       background-color: $blue
       -webkit-appearance: none
