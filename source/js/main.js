@@ -45,6 +45,7 @@ function didLoadInstagram(event, response) {
 }
 
 $(document).ready(function() {
+    overlay_shop()
     ajaxform_subscribe();
     main_menu();
     $("#nav-container").sticky({topSpacing:30});
@@ -182,6 +183,17 @@ function swapWithGIF(){
             $(this).children(".img").attr("src", "img/collection-gallery/photo4.jpg");
         }
     );
+}
+
+
+
+function overlay_shop(){
+    $(".list div a").hover(function(){
+        $(this).find(".overlay").fadeIn(400);
+    }, function() {
+        $(this).find(".overlay").fadeOut(400);
+    });
+
 }
 
 
