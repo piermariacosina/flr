@@ -1,0 +1,134 @@
++at-breakpoint($break-1)
+  #header
+    #main-menu
+      +squish(1,1,10)
+      +span-columns(8,10)
+    .is-sticky
+      #nav-container
+        +set-container-width
+
+  h1.desc
+    +span-columns(6,10)
+  #frame
+    +pre(1)
+    width: 370px
+    height: 300px
+    margin-bottom: 15px
+    img
+      width: 320px
+      height: 320px
+  a.button
+    +span-columns(4,10)
+  #nav
+    +pre(2)
+
+  #shop-list
+    h2.title
+      +pre(1)
+      a
+        +span-columns(4,10)
+
+  #stripesmania
+    +span-columns(10,10)
+
+    #signup-form
+      input[type="text"]
+        +span-columns(4,10)
+    #submit-btn
+      +span-columns(4,10)
+      margin-top: 10px
+
+  #instagram-feed
+    h2.title
+      a
+        +span-columns(3 omega,10)
+    .instagram
+      +span-columns(9,10)
+      +pre(1)
+    .instagram-placeholder
+      +float-left
+      margin: 10px
+      +span-columns(3,10)
+      &:nth-child(odd)
+        margin-left: 10px
+      &:nth-child(even)
+        margin-right: 10px
+      &:nth-child(1)
+        margin-left: 0
+      &:nth-child(3n+1)
+        margin-left: 0
+      &:nth-child(3n+0)
+        margin-right: 0
+
+  #video-container
+
+    padding-bottom: 90px
+  #footer
+    #holder
+      +span-columns(3,10)
+    #pi
+      +span-columns(3,10)
+    #mail
+      +span-columns(3,10)
+
+  #share
+    +span-columns(6,10)
+    +pre(2)
+    .color-box
+      padding: 20px
+  #vfno
+    h2.title
+      a
+        +span-columns(4,10)
+    .color-box
+      +span-columns(6,10)
+
+  #collection-gallery
+    +span-columns(10,10)
+    margin-bottom: 20px
+    h2.title
+      a
+        +span-columns(3,10)
+    .color-box
+      +span-columns(10,10)
+
+    .photos
+      margin-left: columns(1,10)
+      +float-left
+      width: columns(8,10)+ (gutter(10)*2)
+      margin-right: columns(1,10)
+    .photo
+      width: columns(4,8)+ (gutter(8)/2)
+      +float-left
+
+    #photo1
+      display: block
+    #photo2
+      display: block
+    #photo3
+      display: none
+    #photo4
+      display: none
+
+  #stores
+    h2.title
+      a
+        +span-columns(4,10)
+    li
+      height: 560px
+      +span-columns(5,10)
+      .color-box
+        width: 290px
+      &:nth-child(even)
+        +span-columns(5 omega,10)
+
+  #shop-item
+    +span-columns(7,7)
+    div.left
+      +span-columns(7,7)
+    div.right
+      +span-columns(7,10)
+      h1.title
+        +span-columns(7,7)
+      button
+        +span-columns(7,7)

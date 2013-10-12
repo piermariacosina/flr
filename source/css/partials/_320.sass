@@ -1,0 +1,588 @@
+$grey: #939598
+$blue: #307590
+$cipria: #BC8E8E
+$red: #D90D1D
+$black: black
+$viola: #9E1E62
+$grigio: #D3D6DD
+$dark-grey: #9b9595
+$giallo: #FDFAE6
+$light_blue: #EEFCFE
+.page
+  +clearfix
+  +container($total-columns, $break-1, $break-2,$break-3)
+
+#banner
+  background-color: $light-blue
+  +span-columns(7,7)
+  img
+    margin: 0 auto
+    display: block
+    position: relative
+    max-width: 100%
+    height: 100%
+
+#shop-list
+  margin-top: 40px
+  +span-columns(7,7)
+
+  #stripesmania-list
+    +span-columns(7,7)
+    background-color: $giallo
+  #summeressentials-list
+    margin-top: 60px
+    +span-columns(7,7)
+    background-color: $giallo
+  div
+    margin: 10px
+  .list
+    +span-columns(7,7)
+  h2.title
+    z-index: 10
+    position: relative
+    a
+      font-weight: normal
+      color: $viola
+      text-decoration: none
+      position: relative
+      border: 3px solid $viola
+      margin-bottom: -46px !important
+      margin-top: -55px !important
+      +background-clip("border-box")
+      height: 96px
+      margin-bottom: 10px
+      +span-columns(5,7)
+      &:hover
+        background-color: $viola
+        span
+          color: white
+      span
+        color: $viola
+        display: block
+        padding: 22px
+
+#header
+  position: relative
+  z-index: 100
+  +span-columns(7,7)
+  a
+    text-decoration: none
+
+  #logo
+    +replace-text-with-dimensions("logo.png")
+
+    margin-top: 20px
+    +span-columns(7,7)
+
+  h1,p,div.button, input
+    font-family: "helvetica neue",helvetica, arial, sans-serif
+    position: relative
+  #nav-container-sticky-wrapper
+    +span-columns(7,7)
+    margin-top: 30px
+  #nav-container
+    +span-columns(7,7)
+  #main-menu
+    +span-columns(7,7)
+  .container
+    +span-columns(7,7)
+  .is-sticky
+    #nav-container
+      +set-container-width
+  #main-menu
+    +span-columns(7,7)
+    position: relative
+    padding-top: 10px
+    padding-bottom: 10px
+    left: 0
+    z-index: 100
+  .color-box
+    +stretch(0,0,0,0)
+    opacity: 0.8
+    background-color: #E2F1EC
+  ul
+    +horizontal-list-container
+    text-align: center
+    position: relative
+    +span-columns(7,7)
+    li
+      +horizontal-list-item
+      float: none
+      text-align: center
+      display: inline-block
+      &.active
+        a
+          text-decoration: underline
+  a
+    text-decoration: none
+    text-transform: uppercase
+    font-size: px-to-em(12px,16px)
+    +link-colors($black,$cipria,$viola,$black)
+    &.red
+      color: $viola
+
+
+h1.desc
+  font-size: px-to-em(16px,16px)
+  font-weight: normal
+  color: $grey
+  margin-bottom: 20px
+  +span-columns(6,7)
+  position: relative
+
+#frame
+  background-color: $cipria
+  position: relative
+  height: 260px
+  margin-bottom: -10px
+  display: inline
+  width: 320px
+  +float-left
+  img
+    margin: 0 auto 0 auto
+    padding-top: 26px
+    position: relative
+    width: 280px
+    height: 280px
+    display: block
+a.button i
+  color: white
+  display: block
+  height: 50px
+  width: 100%
+  position: absolute
+  text-align: center
+  top: 30px
+  display: none
+  font-size: px-to-em(32px,16px)
+a.button
+  text-decoration: none
+  position: relative
+  border: 3px solid $blue
+  +background-clip("border-box")
+  height: 96px
+  cursor: pointer
+  margin-bottom: 10px
+  +span-columns(4,7)
+  &:hover,&.selected
+    background-color: $blue
+    i
+      display: block
+
+  span
+    font-size: px-to-em(20px,16px)
+    color: $blue
+    display: block
+    padding: 27px
+//STRIPES SALES
+#stripesmania
+  +span-columns(7,7)
+
+  #signup-form
+    font-size: px-to-em(12px,16px)
+    fieldset
+      margin: 0
+      padding: 0
+      border: none
+      input[type="text"]
+        border: 3px solid black
+        padding: 10px
+        -webkit-appearance: none
+        width: 200px
+      #submit-btn
+        border: 3px solid black !important
+        background-color: black
+        border: none
+        color: white
+        padding: 10px
+        width: 225px
+        &:hover
+          background-color: white
+          color: black
+          border: 3px solid black
+        &:active
+          background-color: black
+          border: 3px solid black
+
+  p.follow
+    +float-left
+  .addthis_toolbox
+    +float-left
+
+//VIDEO MODULE
+#video-container
+  margin-top: 20px
+  background-color: #E4DEC8
+  padding-top: 50px
+  padding-bottom: 70px
+
+
+  +span-columns(7,7)
+  h2
+    font-size: px-to-em(20px,16px)
+    +pre(1,10)
+    color: #ffffff
+  .color-box
+    border: 5px solid #ffffff
+    background-color: #29A9B3
+    +pre(1,12)
+    +float-left
+    width: columns(6,7)
+
+#vfno
+  margin-top: 0
+  +span-columns(7,7)
+  background: image_url("FLR_pic.jpg") no-repeat center right
+  h2.title
+    a
+      font-weight: normal
+      color: $red
+      text-decoration: none
+      position: relative
+      border: 3px solid $red
+      margin-bottom: -20px !important
+      margin-top: 20px !important
+      +background-clip("border-box")
+      height: 96px
+      margin-bottom: 10px
+      +span-columns(4,7)
+      &:hover
+        background-color: $red
+        span
+          color: white
+      span
+        color: $red
+        display: block
+        padding: 22px
+  i.visa
+    +replace-text-with-dimensions("visa_logo.png")
+    display: inline-block
+  #vogue-logo
+    +replace-text-with-dimensions("vfno_logo.png")
+  .color-box
+    margin-top: 230px
+    background-color: black
+    +span-columns(7,7)
+    p
+      font-size: px-to-em(16px,16px)
+      color: white
+      margin: 20px
+      a
+        +link-colors($red, white, $red, $cipria, $red)
+
+#video
+
+  +span-columns(8,10)
+  +pre(1,10)
+  margin-bottom: -50px
+
+video
+  max-width: 100%
+  height: auto
+
+
+iframe,embed,object
+  max-width: 100%
+
+#comingsoon
+  margin-top: 30px
+  +span-columns(7,7)
+
+
+#instagram-feed
+  margin-top: 30px
+  +span-columns(7,7)
+  h2.title
+    a
+      +span-columns(4,7)
+      font-weight: normal
+      color: $black
+      text-decoration: none
+      position: relative
+      border: 3px solid
+      margin-top: -40px !important
+      margin-bottom: 20px !important
+      +background-clip("border-box")
+      height: 112px
+      margin-bottom: 10px
+      &:hover
+        background-color: $black
+        span
+          color: white
+
+
+
+      span
+        color: $black
+        display: block
+        padding: 26px
+  .instagram
+    +span-columns(7,7)
+  .instagram-placeholder
+    +float-left
+    margin: 10px
+    +span-columns(3,7)
+    &:nth-child(odd)
+      margin-left: 0
+    &:nth-child(even)
+      margin-right: 0
+    .instagram-image
+      width: 100%
+    a
+      text-decoration: none
+      border: 3px solid white
+      display: block
+      &:hover
+        border: 3px solid $black
+      &:active
+        background-color: $black
+
+#collection-gallery
+  +span-columns(7,7)
+  padding-top: 70px
+
+  h2.title
+    a
+      +span-columns(4,7)
+      font-weight: normal
+      color: $cipria
+      text-decoration: none
+      position: relative
+      border: 3px solid
+      margin-top: -60px !important
+      margin-bottom: 20px !important
+      +background-clip("border-box")
+      height: 96px
+      margin-bottom: 10px
+      &:hover
+        background-color: $cipria
+        span
+          color: white
+
+
+
+      span
+        color: $cipria
+        display: block
+        padding: 26px
+  .color-box
+    margin-top: 30px
+    background-color: $blue
+    +span-columns(7,7)
+    padding-bottom: 40px
+    a
+      text-decoration: none
+  .photos
+    +pre(1)
+    +span-columns(5,7)
+    margin-top: -70px
+    overflow: hidden
+    display: block
+    background-color: $blue
+  img
+    width: 100%
+    height: 100%
+    display: block
+
+  #photo1
+    display: block
+
+  #photo2
+    display: none
+  #photo3
+    display: none
+  #photo4
+    display: none
+
+#footer
+  margin-top: 30px
+  margin-bottom: 30px
+  +span-columns(7,7)
+  span
+    font-size: px-to-em(12px,16px)
+    font-weight: normal
+    color: $grey
+    +span-columns(7,7)
+    a
+      color: $grey
+      &:hover
+        color: $blue
+
+
+#share
+  margin-top: 30px
+  margin-bottom: 30px
+  +span-columns(5,7)
+  +pre(1)
+  .color-box
+    border: 3px solid $viola
+    +clearfix
+    padding: 18px
+
+  h2
+    font-weight: normal
+    color: $viola
+    text-decoration: none
+    text-align: center
+    +background-clip("border-box")
+
+
+    +span-columns(7,7)
+  .addthis_toolbox
+    text-align: center
+    +span-columns(7,7)
+
+
+#stores
+  +span-columns(7,7)
+  .color-box
+    margin-top: 30px
+    background-color: $viola
+    +span-columns(7,7)
+    padding-bottom: 40px
+    a
+      text-decoration: none
+  h2.title
+    z-index: 10
+    position: relative
+
+    a
+      font-weight: normal
+      color: $viola
+      text-decoration: none
+      position: relative
+      border: 3px solid $viola
+      margin-bottom: -20px !important
+      margin-top: 20px !important
+      +background-clip("border-box")
+      height: 96px
+
+      +span-columns(4,7)
+      &:hover
+        background-color: $viola
+        span
+          color: white
+      span
+        color: $viola
+        display: block
+        padding: 32px
+  ul
+    +no-bullets
+    display: block
+    clear: both
+    margin: 0
+    padding: 0
+  li
+    position: relative
+    display: block
+    margin-bottom: 20px
+    +span-columns(7,7)
+    display: block
+    .color-border
+      border: 3px solid $viola
+      margin: 0 auto 0 auto
+      margin-top: -50px
+      position: relative
+      width: 256px
+      height: 313px
+      display: block
+      background-color: white
+      h2
+        font-size: px-to-em(50px,16px)
+        color: $viola
+        line-height: normal
+        padding: 95px 30px 20px 30px
+        border-bottom: none
+    h2
+      font-weight: normal
+      color: $dark-grey
+      +float-left
+
+      border-bottom: 1px solid $viola
+      font-size: px-to-em(18px,16px)
+      position: relative
+      margin-top: 20px
+    a
+
+      font-size: px-to-em(16px,16px)
+      font-weight: normal
+      color: $grey
+      +span-columns(6,7)
+      position: relative
+
+    p
+      clear: both
+      font-size: px-to-em(16px,16px)
+      font-weight: normal
+      color: $grey
+      margin: 0
+
+
+      position: relative
+    .color-box
+      background-color: #bab3dd
+      position: relative
+      height: 260px
+      margin-top: 50px
+      width: 320px
+
+
+      img
+        margin: 0 auto 0 auto
+        margin-top: -50px
+        position: relative
+        width: 262px
+        height: 319px
+        display: block
+
+
+
+#shop-item
+  background-color: $giallo
+  margin-top: 60px
+  +span-columns(7,7)
+  div.left
+    +span-columns(7,7)
+    img
+      max-width: 100%
+      height: auto
+  div.right
+    +span-columns(7,7)
+    h1.title
+      z-index: 10
+      position: relative
+      font-weight: normal
+      color: $viola
+      border: 3px solid $viola
+      margin-bottom: 20px !important
+      margin-top: -40px !important
+      +background-clip("border-box")
+      +span-columns(6,7)
+      font-size: px-to-em(22px,16px)
+      span
+        color: $viola
+        display: block
+        padding: 22px
+    h2
+      font-weight: normal
+      color: $viola
+      +span-columns(6,7)
+      margin-top: 0
+      margin-bottom: 0
+      font-size: px-to-em(18px,16px)
+    p
+      font-size: px-to-em(14px,16px)
+      color: $dark-grey
+      +span-columns(6,7)
+    button
+      background-color: $blue
+      -webkit-appearance: none
+      color: white
+      border: none
+      height: 96px
+      +span-columns(7,7)
+      &:hover
+        background-color: $viola
+        color: white
+
+

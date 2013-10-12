@@ -1,0 +1,175 @@
+@import susy
+@import h5bp
+@import compass/utilities/general/float
+
+@function px-to-em($target, $context: $base-font-size)
+  @if $target == 0
+    @return 0
+  @return ($target / $context)+0em
+
++h5bp-normalize
+
+$base-font-size: 16px
+$base-line-height: 24px
+
+$total-columns: 10
+$column-width: 2.5em
+$gutter-width: 1.25em
+$grid-padding: 0.625em
+$container-style: static
+
+
+
+$legacy-support-for-ie: true
+
+$viola: #9E1E62
+$grigio: #D3D6DD
+$giallo: #FDFAE6
+$light-blue: #EEFCFE
+
+body
+  width: 100% !important
+  -webkit-text-size-adjust: 100%
+  -ms-text-size-adjust: 100%
+  margin: 0
+  padding: 0
+  -webkit-font-smoothing: antialiased
+
+p
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
+
+hr
+  width: 50%
+img.logo
+  margin: 20px auto
+
+
+h1,h2,h3,h4,h5,h6	
+
+  color: black
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
+  font-weight: normal
+  line-height: px-to-em(16px)
+
+h1
+  font-size: px-to-em(20px)
+
+p.title
+  font-size: px-to-em(22px)
+h3
+  font-size: px-to-em(24px)
+h4
+  font-size: px-to-em(20px)
+h5
+  font-size: px-to-em(16px)
+h6
+  font-size: px-to-em(12px)
+
+h1.title,p.subtitle
+  text-align: center
+
+p.web
+  font-size: px-to-em(12px,16px)
+  text-align: center
+  a
+    color: black
+    text-decoration: none
+
+h2
+  color: $viola
+
+  border: 3px solid $viola
+
+  margin-top: 20px !important
+  +background-clip("border-box")
+  height: 96px
+  position: relative
+  z-index: 10
+  position: absolute
+  +span-columns(3,10)
+  span
+    color: $viola
+    display: block
+    padding: 22px
+    font-size: px-to-em(20px,16px)
+
+
+img
+  max-width: 100%
+  text-decoration: none
+  display: block
+  outline: none
+  -ms-interpolation-mode: bicubic
+  position: relative
+  margin-top: 20px
+  margin-left: 25px
+  clear: both
+  &.small
+    margin-left: 4.75em
+    width: 600px
+    height: auto
+
+a img 
+  border: none
+  text-decoration: none
+
+p
+  &.subtitle
+
+    margin: 0
+    color: black
+    font-size: px-to-em(14px)
+
+  &.description
+    font-size: px-to-em(16px)
+
+    +span-columns(10,10)
+    +pre(1)
+    +post(2)
+    a
+      color: black
+
+      &:hover
+        color: $viola
+
+  a
+    color: black
+
+    &:hover
+      color: $viola
+
+
+table[id="external"]
+  margin: 0 !important
+  padding: 0 !important
+  background-color: white
+  
+  td[id="externaltd"]
+
+    padding: 0
+    table[id="main"]
+      
+
+      td[class="story"]
+        margin-top: px-to-em(20px)
+        background-color: $giallo
+      td[class="story blue"]
+        background-color: $light-blue
+        strong
+          color: $viola
+a.button
+  text-decoration: none
+  margin-top: 30px
+  margin-bottom: 30px
+  display: block
+  +pre(5)
+  +span-columns(4,7)
+  color: $viola
+
+
+
+
+
+
+
+

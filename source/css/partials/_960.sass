@@ -1,0 +1,132 @@
++at-breakpoint($break-3)
+  #header
+    #main-menu
+      +squish(0,0)
+      +span-columns(16,16)
+    .is-sticky
+      #nav-container
+        +set-container-width
+
+    #stripesmania
+      +span-columns(12,12)
+
+      #signup-form
+        input[type="text"]
+          +span-columns(4,12)
+          width: 191px !important
+      #submit-btn
+        +span-columns(4 omega,12)
+        margin-top: 0
+  h1.desc
+    +span-columns(6,16)
+    +pre(1)
+    margin-bottom: 0
+  #frame
+    +pre(7)
+  #nav
+    margin-top: 50px
+    +pull(9)
+    +span-columns(4 alpha,16)
+
+  #shop-list
+    h2.title
+      +pre(1)
+      a
+        +span-columns(4,16)
+  #stripesmania
+    +pre(1)
+    +span-columns(16,16)
+
+    #signup-form
+      input[type="text"]
+        +span-columns(4,16)
+
+    #submit-btn
+      +span-columns(4 ,16)
+      margin-top: 0
+  #instagram-feed
+    h2.title
+      a
+        +span-columns(3 omega,10)
+        +post(2)
+  #collection-gallery
+    +span-columns(16,16)
+
+    h2.title
+      +pre(2)
+      a
+        +span-columns(4,16)
+    .color-box
+      +span-columns(16,16)
+
+    .photos
+      margin-left: columns(1,16)
+      +float-left
+      width: columns(14,16)+ (gutter(16)*2)
+      margin-right: columns(1,16)
+    .photo
+      width: columns(3,12)+ ((gutter(12)*3)/4)
+      +float-left
+
+    #photo1
+      display: block
+    #photo2
+      display: block
+    #photo3
+      display: block
+    #photo4
+      display: block
+
+  #share
+    +span-columns(6,16)
+    +pre(5)
+  #vfno
+    height: 650px
+    margin-top: 50px
+    h2.title
+      a
+        +span-columns(4,16)
+        margin-left: 12%
+        z-index: 3
+        position: relative
+    #vogue-logo
+      clear: both
+      +span-columns(7,16)
+      +pre(5)
+      margin-top: -60px
+      z-index: 2
+      position: relative
+    .color-box
+      +span-columns(6,16)
+      margin-top: 0
+      +pull(12)
+      p
+        margin: 50px
+
+  #stores
+    h2.title
+      a
+        +span-columns(4,16)
+    li
+      height: 560px
+      +span-columns(5 ,16)
+      &:nth-child(even)
+        +span-columns(5,16)
+
+  #shop-item
+    +span-columns(7,7)
+    div.left
+      +span-columns(8,16)
+    div.right
+      +span-columns(8 omega,16)
+      h1.title
+        +span-columns(6,8)
+      h2
+
+        +span-columns(6,8)
+      p
+        +span-columns(6,8)
+      button
+        +span-columns(6,8)
+
+

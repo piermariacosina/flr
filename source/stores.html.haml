@@ -1,0 +1,77 @@
+.page
+  = partial "partials/header"
+
+
+
+  #stores
+    %h2.title
+      %a{href: "http://flavialarocca.com/stores.html"}
+        %span
+          STORES
+    %ul
+      %li
+        .color-box
+          = image_tag "stores/store1.png"
+        %button{"data-celery" => "maglia"} Order Now
+        %script{src: "https://www.trycelery.com/js/celery.js", type: "text/javascript"}
+        %h2
+          TUG STORE
+        %p
+          %a{href:"http://www.tugstore.it"}
+            www.tugstore.it
+        %p
+          Via Muratori, 48<br />
+          20135 Milano<br />
+          Italy<br />
+        %p
+          info@tugstore.it<br />
+
+      %li
+        .color-box
+          = image_tag "stores/store2.png"
+        %h2
+          DICTIONARY
+        %p
+          %a{href:"http://www.dictionarymilano.it"}
+            www.dictionarymilano.it
+        %p
+          C.so di Porta Ticinese, 46<br />
+          20123 Milano<br />
+          Italy <br />
+          +39 02 835 8212<br />
+          info@dictionarymilano.it<br />
+      %li
+        .color-box
+          = image_tag "stores/store3.png"
+        %h2
+          40 GRADI
+        %p
+          %a{href:"http://www.40gradi.it"}
+            www.40gradi.it
+        %p
+          Via Virgilio, 1<br />
+          00193 Roma<br />
+          Italy<br />
+          +39 06 681 34612<br />
+          40gradi@alice.it<br />
+      %li
+        .color-box
+          .color-border
+            %h2
+              ONLINE STORES
+        %h2
+          BOUTIQUE ON CLICK
+        %p
+          %a{href:"http://www.boutuqueonclick.com"}
+            www.boutuqueonclick.com
+        %h2
+          ATELIER AANGENAAM
+        %p
+          %a{href:"http://www.atelieraangenaam.nl"}
+            www.atelieraangenaam.nl
+
+  = partial "partials/footer"
+
+
+
+= javascript_include_tag 'main'

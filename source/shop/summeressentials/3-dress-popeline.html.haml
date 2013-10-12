@@ -1,0 +1,38 @@
+.page
+  = partial "partials/header"
+
+  #shop-item
+    %div.left
+      = image_tag "shop/items/big_lowfi/milla_popeline_lowfi.jpg", :"data-src" => "/img/shop/items/big/milla_popeline.jpg"
+    %div.right
+      %h1.title
+        %span
+          3-lengths baby blue popeline dress
+      %h2.description
+        Description
+      %p
+        3-lengths baby blue popeline dress comprising a 20cm-wide elastic black band at the bottom-end. The dress can be worn in three different ways: 1/ as a midi dress (see picture); 2/ as a mini dress, by flipping over the band; 3/ as a puffed blouse, with the band worn just above the waist-line.
+
+      %h2.composition
+        Size & Composition
+      %p
+        Medium (waist: 70cm)<br />
+        100% cotton.
+      %h2.availability
+        Availability
+      %p
+        1 Piece
+      %h2.shipping
+        Shipping
+      %p
+        To Italy: via Poste Italiane, Pacco Celere 3 - delivery within 3 working days: €9.90 <br />
+        To EU & rest of the world: place your order. We will hold it and contact you with the shipping/delivery and price details according to your country of destination.
+
+      %p
+      %button{"data-celery" => "3-dress-popeline"} BUY NOW
+      %script{src: "https://www.trycelery.com/js/celery.js", type: "text/javascript"}
+  = partial "partials/footer"
+
+
+
+= javascript_include_tag 'main'

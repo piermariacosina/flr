@@ -1,0 +1,38 @@
+.page
+  = partial "partials/header"
+
+  #shop-item
+    %div.left
+      = image_tag "shop/items/big_lowfi/top_blu_lowfi.jpg", :"data-src" => "/img/shop/items/big/top_blu.jpg"
+    %div.right
+      %h1.title
+        %span
+          Midnight blue top
+      %h2.description
+        Description
+      %p
+        Two-piece midnight blue top comprising an upper part (which can be worn separately) and a bottom part (to wear combined with the upper part only).
+
+      %h2.composition
+        Size & Composition
+      %p
+        Medium (waist: 70cm)<br />
+        100% cotton.
+      %h2.availability
+        Availability
+      %p
+        1 Piece
+      %h2.shipping
+        Shipping
+      %p
+        To Italy: via Poste Italiane, Pacco Celere 3 - delivery within 3 working days: €9.90 <br />
+        To EU & rest of the world: place your order. We will hold it and contact you with the shipping/delivery and price details according to your country of destination.
+
+      %p
+      %button{"data-celery" => "top-blue"} BUY NOW
+      %script{src: "https://www.trycelery.com/js/celery.js", type: "text/javascript"}
+  = partial "partials/footer"
+
+
+
+= javascript_include_tag 'main'

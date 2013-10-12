@@ -1,26 +1,25 @@
-source 'https://rubygems.org'
+# If you have OpenSSL installed, we recommend updating
+# the following line to use "https"
+source 'http://rubygems.org'
 
-# ruby '1.9.3'
+gem "middleman", "~>3.1.4"
 
-gem 'locomotivecms_wagon', '1.2.2'
+# Live-reloading plugin
+gem "middleman-livereload", "~> 3.1.0"
+gem "middleman-deploy"
+gem "middleman-smusher"
+gem "middleman-minify-html"
+gem "middleman-favicon-maker"
 
-group :development do
-  # Mac OS X
-  gem 'rb-fsevent', '~> 0.9.1', require: RUBY_PLATFORM.include?('darwin') && 'rb-fsevent'
+gem "susy"
+gem 'compass-h5bp'
+gem 'oily_png'
+gem 'mini_magick'
 
-  # Unix
-  gem 'therubyracer', require: 'v8', platforms: :ruby
-  gem 'rb-inotify', '~> 0.9', require: RUBY_PLATFORM.include?('linux') && 'rb-inotify'
+# For faster file watcher updates on Windows:
+gem "wdm", "~> 0.1.0", :platforms => [:mswin, :mingw]
 
-  # Windows
-  gem 'wdm', '>= 0.1.0', require: RUBY_PLATFORM =~ /mswin|mingw/i && 'wdm'
-end
-
-group :misc do
-  # Add your extra gems here
-  gem 'susy', require: 'susy'
-  # gem 'redcarpet', require: 'redcarpet'
-	gem 'compass-h5bp'
-	gem 'oily_png'
-	gem 'mini_magick'
+# Cross-templating language block fix for Ruby 1.8
+platforms :mri_18 do
+  gem "ruby18_source_location"
 end

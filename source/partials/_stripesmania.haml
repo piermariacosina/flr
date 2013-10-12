@@ -1,0 +1,24 @@
+#stripesmania
+  - form_tag 'http://mailinglist.thedoersproject.com/subscribe', :id => "signup-form", :name => "signup-form", :"accept-charset" => "utf-8", :class => 'submit-form', :method => 'POST' do
+    - field_set_tag do
+      %p
+        Subscribe to get your discount code
+      %p
+        = text_field_tag :name, :name => "name", :id => 'name', :placeholder=>"Your name and surname here", :type=>"text"
+      %p
+        = text_field_tag :email, :name => "email", :id => 'email', :placeholder=>"Your email address here", :type=>"text"
+      = hidden_field_tag  :list, :value => "tJt3biJc763TeUDxS19mJJ6A", :name => "list", :id => 'submit_list'
+      %p
+        = submit_tag "Submit", :name => "submit", :id => 'submit-btn',:class=> "button"
+    %p#status
+    %p.follow or find it on
+    .addthis_toolbox
+      .custom_images
+        %a.addthis_button_facebook_follow{style: "text-decoration:none; cursor: pointer; ", :"addthis:userid"=>"117027831737823"}
+          = image_tag "share-buttons/facebook.png", border: "0", width: "35", height: "35", alt: "facebook"
+        %a.addthis_button_instagram_follow{style: "text-decoration:none; cursor: pointer; ",:"addthis:userid"=>"flavialarocca_"}
+          = image_tag "share-buttons/instagram.png", border: "0", width: "35", height: "35", alt: "instagram"
+        %a.addthis_button_twitter_follow{style: "text-decoration:none; cursor: pointer; ",:"addthis:userid"=>"flavialarocca"}
+          = image_tag "share-buttons/twitter.png", border: "0", width: "35", height: "35", alt: "twitter"
+
+

@@ -1,0 +1,123 @@
++at-breakpoint($break-2)
+  #header
+    #logo
+      margin-top: 30px
+    #main-menu
+      +squish(0,0,10)
+      +span-columns(12,12)
+    .is-sticky
+      #nav-container
+        +set-container-width
+  #shop-list
+    h2.title
+      +pre(1)
+      a
+        +span-columns(4,12)
+
+
+  #banner
+    img
+      max-width: 60%
+  #stripesmania
+    +span-columns(12,12)
+
+    #signup-form
+      input[type="text"]
+        +span-columns(4,12)
+        width: 191px !important
+    #submit-btn
+      +span-columns(4 omega,12)
+      margin-top: 0
+
+  h1.desc
+    +span-columns(6,12)
+  #frame
+    +pre(4)
+    margin-bottom: 50px
+  #nav
+    margin-top: 50px
+    +pull(9)
+    +float-left
+    +span-columns(4 alpha,12)
+  a.button
+    +span-columns(5,5)
+  #instagram-feed
+    h2.title
+      a
+        +span-columns(3 omega,10)
+        +post(2)
+
+  #collection-gallery
+    +span-columns(11,12)
+
+    h2.title
+      a
+        +span-columns(3,11)
+    .color-box
+      +span-columns(11,11)
+
+    .photos
+      margin-left: columns(1,11)
+      +float-left
+      width: columns(9,11)+ (gutter(11)*2)
+      margin-right: columns(1,11)
+    .photo
+      width: columns(3,9)+ ((gutter(9)*2)/3)
+      +float-left
+
+    #photo1
+      display: block
+    #photo2
+      display: block
+    #photo3
+      display: block
+    #photo4
+      display: none
+  #vfno
+    h2.title
+      a
+        +span-columns(4,12)
+        +pre(1)
+    #vogue-logo
+      clear: both
+      +pre(2)
+    .color-box
+      +span-columns(6,12)
+      +pre(2)
+  #share
+    +span-columns(6,12)
+    +pre(3)
+
+  #footer
+    #holder
+      +span-columns(3,12)
+    #pi
+      +span-columns(3,12)
+    #mail
+      +span-columns(3,12)
+    #share
+      +span-columns(12,12)
+    .addthis_toolbox
+      +span-columns(12,12)
+
+  #stores
+    h2.title
+      a
+        +span-columns(4,12)
+    li
+
+      +span-columns(6 ,12)
+      &:nth-child(even)
+        +span-columns(6 omega,12)
+
+  #shop-item
+    +span-columns(7,7)
+    div.left
+      +span-columns(6,12)
+    div.right
+      +span-columns(6 omega,12)
+      h1.title
+        +span-columns(5,6)
+      button
+        +span-columns(6,6)
+
