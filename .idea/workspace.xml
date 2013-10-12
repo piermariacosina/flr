@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4c0bb25-6dac-4c83-b76d-aa62800af3cc" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/shop/list.html.haml" afterPath="$PROJECT_DIR$/source/shop/list.html.haml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="flr.iws" />
@@ -21,7 +17,7 @@
     <file path="/_640.sass" changelist="e4c0bb25-6dac-4c83-b76d-aa62800af3cc" time="1380837565945" ignored="false" />
     <file path="/_960.sass" changelist="e4c0bb25-6dac-4c83-b76d-aa62800af3cc" time="1380837725953" ignored="false" />
     <file path="/_1280.sass" changelist="e4c0bb25-6dac-4c83-b76d-aa62800af3cc" time="1380464102857" ignored="false" />
-    <file path="/Dummy.txt" changelist="e4c0bb25-6dac-4c83-b76d-aa62800af3cc" time="1381617306704" ignored="false" />
+    <file path="/Dummy.txt" changelist="e4c0bb25-6dac-4c83-b76d-aa62800af3cc" time="1381618118458" ignored="false" />
     <file path="/mailing-list.css.sass" changelist="e4c0bb25-6dac-4c83-b76d-aa62800af3cc" time="1380665627098" ignored="false" />
     <file path="/mailing-list.html.haml" changelist="e4c0bb25-6dac-4c83-b76d-aa62800af3cc" time="1379077661032" ignored="false" />
     <file path="/*.regexp" changelist="e4c0bb25-6dac-4c83-b76d-aa62800af3cc" time="1380746876871" ignored="false" />
@@ -50,7 +46,7 @@
     <file path="/summersale_registration2013.html.haml" changelist="e4c0bb25-6dac-4c83-b76d-aa62800af3cc" time="1380666886191" ignored="false" />
     <file path="/shop.html.haml" changelist="e4c0bb25-6dac-4c83-b76d-aa62800af3cc" time="1380751840792" ignored="false" />
     <file path="/item.html.haml" changelist="e4c0bb25-6dac-4c83-b76d-aa62800af3cc" time="1380837078601" ignored="false" />
-    <file path="/list.html.haml" changelist="e4c0bb25-6dac-4c83-b76d-aa62800af3cc" time="1380846882144" ignored="false" />
+    <file path="/list.html.haml" changelist="e4c0bb25-6dac-4c83-b76d-aa62800af3cc" time="1381619456577" ignored="false" />
     <file path="/mini-skirt-stripes-green.html.haml" changelist="e4c0bb25-6dac-4c83-b76d-aa62800af3cc" time="1380845235338" ignored="false" />
     <file path="/minidress-stripes-red.html.haml" changelist="e4c0bb25-6dac-4c83-b76d-aa62800af3cc" time="1380845135704" ignored="false" />
     <file path="/overalls-stripes-red.html.haml" changelist="e4c0bb25-6dac-4c83-b76d-aa62800af3cc" time="1380845639080" ignored="false" />
@@ -100,7 +96,7 @@
       <file leaf-file-name="index.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/index.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="53" selection-start="550" selection-end="597" vertical-scroll-proportion="-4.4583335">
+            <state line="15" column="53" selection-start="550" selection-end="597" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -109,7 +105,7 @@
       <file leaf-file-name="list.html.haml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/shop/list.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="101" column="63" selection-start="5623" selection-end="5633" vertical-scroll-proportion="3.2580645">
+            <state line="245" column="0" selection-start="8902" selection-end="8902" vertical-scroll-proportion="0.84368306">
               <folding />
             </state>
           </provider>
@@ -127,7 +123,7 @@
       <file leaf-file-name="summersale_tea2013.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/newsletters/summersale_tea2013.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="46" selection-start="1429" selection-end="1429" vertical-scroll-proportion="-6.75">
+            <state line="35" column="46" selection-start="1429" selection-end="1429" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -197,7 +193,6 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/source/shop/summeressentials/top-blue.html.haml" />
-        <option value="$PROJECT_DIR$/source/shop/list.html.haml" />
         <option value="$PROJECT_DIR$/source/shop/summeressentials/top-black.html.haml" />
         <option value="$PROJECT_DIR$/source/shop/summeressentials/3-dress-popeline.html.haml" />
         <option value="$PROJECT_DIR$/source/shop/summeressentials/3-dress-rose.html.haml" />
@@ -212,6 +207,7 @@
         <option value="$PROJECT_DIR$/source/partials/_banner.haml" />
         <option value="$PROJECT_DIR$/config.rb" />
         <option value="$PROJECT_DIR$/source/newsletters/summersale_tea2013.html.haml" />
+        <option value="$PROJECT_DIR$/source/shop/list.html.haml" />
       </list>
     </option>
   </component>
@@ -273,6 +269,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -325,19 +322,18 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="appearance" />
-    <property name="restartRequiresConfirmation" value="true" />
+    <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../alphabots" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="true" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -351,120 +347,6 @@
       <recent name="$PROJECT_DIR$/source/shop" />
       <recent name="$PROJECT_DIR$/source/items" />
     </key>
-  </component>
-  <component name="RestoreUpdateTree">
-    <UpdateInfo date="Moments ago" ActionInfo="_Update">
-      <UpdatedFiles>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated from server" />
-          <option name="myStatusName" value="Changed on server" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CHANGED_ON_SERVER" />
-          <FILE-GROUP>
-            <option name="myUpdateName" value="Updated" />
-            <option name="myStatusName" value="Changed" />
-            <option name="mySupportsDeletion" value="false" />
-            <option name="myCanBeAbsent" value="false" />
-            <option name="myId" value="UPDATED" />
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/.gitignore</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/vcs.xml</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
-          </FILE-GROUP>
-          <FILE-GROUP>
-            <option name="myUpdateName" value="Created" />
-            <option name="myStatusName" value="Created" />
-            <option name="mySupportsDeletion" value="false" />
-            <option name="myCanBeAbsent" value="false" />
-            <option name="myId" value="CREATED" />
-          </FILE-GROUP>
-          <FILE-GROUP>
-            <option name="myUpdateName" value="Deleted" />
-            <option name="myStatusName" value="Deleted" />
-            <option name="mySupportsDeletion" value="false" />
-            <option name="myCanBeAbsent" value="true" />
-            <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-          </FILE-GROUP>
-          <FILE-GROUP>
-            <option name="myUpdateName" value="Restored" />
-            <option name="myStatusName" value="Will be restored" />
-            <option name="mySupportsDeletion" value="false" />
-            <option name="myCanBeAbsent" value="false" />
-            <option name="myId" value="RESTORED" />
-          </FILE-GROUP>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Modified" />
-          <option name="myStatusName" value="Modified" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="MODIFIED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Skipped" />
-          <option name="myStatusName" value="Skipped" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="SKIPPED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Merged with conflicts" />
-          <option name="myStatusName" value="Will be merged with conflicts" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="MERGED_WITH_CONFLICTS" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Merged with tree conflicts" />
-          <option name="myStatusName" value="Merged with tree conflicts" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Merged with property conflicts" />
-          <option name="myStatusName" value="Will be merged with property conflicts" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Merged" />
-          <option name="myStatusName" value="Will be merged" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="MERGED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Not in repository" />
-          <option name="myStatusName" value="Not in repository" />
-          <option name="mySupportsDeletion" value="true" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UNKNOWN" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Locally added" />
-          <option name="myStatusName" value="Locally added" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="LOCALLY_ADDED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Locally removed" />
-          <option name="myStatusName" value="Locally removed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="LOCALLY_REMOVED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Switched" />
-          <option name="myStatusName" value="Switched" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="SWITCHED" />
-        </FILE-GROUP>
-      </UpdatedFiles>
-    </UpdateInfo>
   </component>
   <component name="RunManager" selected="Gem Command.Middleman">
     <configuration default="true" type="CommandRunConfigurationType" factoryName="Gem Command">
@@ -706,18 +588,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969698" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28479198" sideWeight="0.67030305" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28909612" sideWeight="0.6727273" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32648125" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32969698" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3272727" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -815,9 +697,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/source/shop/summeressentials/mini-white.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="107" selection-start="187" selection-end="281" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="6" column="107" selection-start="187" selection-end="281" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/shop/summeressentials/3-white-dress.html.haml">
@@ -871,21 +751,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/source/newsletters/summersale_tea2013.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="46" selection-start="1429" selection-end="1429" vertical-scroll-proportion="-6.75">
+        <state line="35" column="46" selection-start="1429" selection-end="1429" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/index.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="53" selection-start="550" selection-end="597" vertical-scroll-proportion="-4.4583335">
+        <state line="15" column="53" selection-start="550" selection-end="597" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/shop/list.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="101" column="63" selection-start="5623" selection-end="5633" vertical-scroll-proportion="3.2580645">
+        <state line="245" column="0" selection-start="8902" selection-end="8902" vertical-scroll-proportion="0.84368306">
           <folding />
         </state>
       </provider>
