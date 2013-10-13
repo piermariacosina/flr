@@ -7,7 +7,7 @@ activate :deploy do |deploy|
 	deploy.user = "piermaria"
 	deploy.password = "Nonmelaricordo2"
 	deploy.path = "/home/piermaria/webapps/flr"
-	deploy.build_before = true
+	#deploy.build_before = true
 	deploy.clean = true
 end
 
@@ -107,7 +107,7 @@ configure :build do
   #activate :minify_html
   # Minify Javascript on build
   activate :minify_javascript
-  activate :favicon_maker
+  #activate :favicon_maker
   #activate :smusher
   # Enable cache buster
   #activate :asset_hash
