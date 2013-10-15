@@ -48,8 +48,8 @@ page "/shop/stripesmania/overalls-stripes-red.html", :layout => :html5
 page "/shop/stripesmania/skirt-dress-orange-stripes.html", :layout => :html5
 page "/shop/stripesmania/skirt-dress-stripes-green.html", :layout => :html5
 page "/shop/stripesmania/skirt-dress-stripes-orange.html", :layout => :html5
-page "/shop/stripesmania/three-piece-skirt-orange.html", :layout => :html5
-page "/shop/stripesmania/top-stripes-orange.html", :layout => :html5
+#page "/shop/stripesmania/three-piece-skirt-orange.html", :layout => :html5
+#page "/shop/stripesmania/top-stripes-orange.html", :layout => :html5
 page "/shop/stripesmania/two-piece-short-orange-dress.html", :layout => :html5
 
 page "/shop/summeressentials/3-dress-denim.html", :layout => :html5
