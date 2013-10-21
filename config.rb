@@ -53,7 +53,7 @@ page "/shop/stripesmania/skirt-dress-stripes-orange.html", :layout => :html5
 page "/shop/stripesmania/two-piece-short-orange-dress.html", :layout => :html5
 
 page "/shop/summeressentials/3-dress-denim.html", :layout => :html5
-page "/shop/summeressentials/overalls-black.html", :layout => :html5
+#page "/shop/summeressentials/overalls-black.html", :layout => :html5
 page "/shop/summeressentials/3-dress-polkadot.html", :layout => :html5
 page "/shop/summeressentials/3-dress-popeline.html", :layout => :html5
 page "/shop/summeressentials/3-dress-rose.html", :layout => :html5
