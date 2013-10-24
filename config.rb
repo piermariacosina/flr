@@ -36,6 +36,7 @@ page "/newsletters/temporaryshowroom2013.html", :layout => false
 page "/newsletters/temporaryshowroom2013_2.html", :layout => false
 page "/newsletters/temporaryshowroom2013_3.html", :layout => false
 page "/newsletters/summersale_registration2013.html", :layout => false
+page "/newsletters/pressday2013_1.html", :layout => false
 page "/newsletters/summersale_tea2013.html", :layout => false
 page "/stores.html", :layout => :html5
 
