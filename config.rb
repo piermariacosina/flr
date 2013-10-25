@@ -39,6 +39,7 @@ page "/newsletters/summersale_registration2013.html", :layout => false
 page "/newsletters/pressday2013_1.html", :layout => false
 page "/newsletters/summersale_tea2013.html", :layout => false
 page "/stores.html", :layout => :html5
+page "/presskit.html", :layout => :html5
 
 page "/shop/list.html", :layout => :html5
 
