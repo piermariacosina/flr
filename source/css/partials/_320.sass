@@ -25,7 +25,10 @@ $light_blue: #CCF1F2
 #shop-list
   margin-top: 40px
   +span-columns(7,7)
-
+  #ss-list
+    +span-columns(7,7)
+    background-color: $light-blue
+    margin-left: 0
   #stripesmania-list
     +span-columns(7,7)
     background-color: $giallo
@@ -35,6 +38,14 @@ $light_blue: #CCF1F2
     margin-left: 0
     +span-columns(7,7)
     background-color: $giallo
+  .center
+    text-align: center
+    +span-columns(7,7)
+    a.button.download
+      +span-columns(5,7)
+      +pre(1)
+      +post(1)
+      font-size: px-to-em(20px,16px)
 
 
 
