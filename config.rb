@@ -6,7 +6,7 @@ activate :deploy do |deploy|
 	deploy.host = "web332.webfaction.com"
 	deploy.user = "piermaria"
 	deploy.password = "Nonmelaricordo2"
-	deploy.path = "/home/piermaria/webapps/flr"
+	deploy.path = "/home/piermaria/webapps/flavialarocca"
 	#deploy.build_before = true
 	deploy.clean = true
 end
