@@ -39,9 +39,8 @@ page "/newsletters/summersale_registration2013.html", :layout => false
 page "/newsletters/pressday2013_1.html", :layout => false
 page "/newsletters/summersale_tea2013.html", :layout => false
 page "/stores.html", :layout => :html5
-page "/presskit.html", :layout => :html5
+page "/presskit/presskit.html", :layout => :html5
 page "/press.html", :layout => :html5
-
 page "/shop/list.html", :layout => :html5
 
 page "/shop/stripesmania/mini-skirt-stripes-green.html", :layout => :html5
@@ -54,7 +53,6 @@ page "/shop/stripesmania/skirt-dress-stripes-orange.html", :layout => :html5
 #page "/shop/stripesmania/three-piece-skirt-orange.html", :layout => :html5
 #page "/shop/stripesmania/top-stripes-orange.html", :layout => :html5
 page "/shop/stripesmania/two-piece-short-orange-dress.html", :layout => :html5
-
 page "/shop/summeressentials/3-dress-denim.html", :layout => :html5
 #page "/shop/summeressentials/overalls-black.html", :layout => :html5
 page "/shop/summeressentials/3-dress-polkadot.html", :layout => :html5
@@ -88,7 +86,7 @@ page "/shop/summeressentials/vichy-dress-babyblue.html", :layout => :html5
 activate :automatic_image_sizes
 
 # Reload the browser automatically whenever files change
-# activate :livereload
+activate :livereload
 
 # Methods defined in the helpers block are available in templates
 # helpers do
@@ -107,13 +105,13 @@ set :images_dir, 'img'
 configure :build do
   # For example, change the Compass output style for deployment
   activate :minify_css
-  #activate :minify_html
+  activate :minify_html
   # Minify Javascript on build
   activate :minify_javascript
   #activate :favicon_maker
   #activate :smusher
   # Enable cache buster
-  #activate :asset_hash
+  activate :asset_hash
 
   # Use relative URLs
   activate :relative_assets

@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "restricted area"
+AuthUserFile /home/piermaria/webapps/flr/presskit/.htpasswd
+require valid-user
