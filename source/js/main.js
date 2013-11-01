@@ -5,9 +5,12 @@
 //= require "vendor/animatescroll.noeasing"
 //= require "vendor/jquery.isotope.min"
 //= require "vendor/jquery.unveil.min"
+//= require "vendor/fancybox/lib/jquery.mousewheel-3.0.6.pack"
+//= require "vendor/fancybox/source/jquery.fancybox"
 
 $(document).ready(function() {
     $("img").unveil();
+    $('.fancybox').fancybox();
 });
 var $container1 = $('#stripesmania-list .list');
 var $container2 = $('#summeressentials-list .list');

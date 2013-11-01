@@ -43,6 +43,8 @@ page "/presskit/presskit.html", :layout => :html5
 page "/press.html", :layout => :html5
 page "/shop/list.html", :layout => :html5
 
+page "/collections/fw13.html", :layout => :html5
+
 page "/shop/stripesmania/mini-skirt-stripes-green.html", :layout => :html5
 page "/shop/stripesmania/minidress-stripes-red.html", :layout => :html5
 page "/shop/stripesmania/overalls-stripe-orange.html", :layout => :html5
