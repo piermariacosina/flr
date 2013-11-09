@@ -44,6 +44,8 @@ page "/press.html", :layout => :html5
 page "/projects.html", :layout => :html5
 #page "/shop/list.html", :layout => :html5
 
+page "/shop/fw13-list.html", :layout => :html5
+
 page "/collections/fw13.html", :layout => :html5
 
 #page "/shop/stripesmania/mini-skirt-stripes-green.html", :layout => :html5
