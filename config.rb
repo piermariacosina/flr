@@ -73,7 +73,26 @@ page "/collections/fw13.html", :layout => :html5
 #page "/shop/summeressentials/top-blue.html", :layout => :html5
 #page "/shop/summeressentials/vichy-dress-babyblue.html", :layout => :html5
 
-page "/shop/fw1314/2-piece-coat-chiaro-m.html", :layout => :html5
+page "/shop/fw1314/2-piece-coat-chiaro.html", :layout => :html5
+page "/shop/fw1314/2-piece-coat-purple.html", :layout => :html5
+page "/shop/fw1314/2-piece-coat-scuro.html", :layout => :html5
+page "/shop/fw1314/2-piece-jacket-hood.html", :layout => :html5
+page "/shop/fw1314/2-piece-minidress.html", :layout => :html5
+page "/shop/fw1314/2-piece-skirt-black.html", :layout => :html5
+page "/shop/fw1314/2-piece-skirt-pale.html", :layout => :html5
+page "/shop/fw1314/2-piece-skirt-white.html", :layout => :html5
+page "/shop/fw1314/2-piece-jchiaro.html", :layout => :html5
+page "/shop/fw1314/2-piece-jchiaro-collov.html", :layout => :html5
+page "/shop/fw1314/2-piece-jscuro.html", :layout => :html5
+page "/shop/fw1314/2-piece-jscuronero.html", :layout => :html5
+page "/shop/fw1314/3-length-dress-purple.html", :layout => :html5
+page "/shop/fw1314/3-piece-skirt-dark.html", :layout => :html5
+page "/shop/fw1314/overall-black.html", :layout => :html5
+page "/shop/fw1314/overall-purple.html", :layout => :html5
+page "/shop/fw1314/overall-white.html", :layout => :html5
+page "/shop/fw1314/parka-chiaro.html", :layout => :html5
+page "/shop/fw1314/parka-scuro.html", :layout => :html5
+page "/shop/fw1314/parka-wool.html", :layout => :html5
 
 
 #
