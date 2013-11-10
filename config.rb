@@ -73,6 +73,9 @@ page "/collections/fw13.html", :layout => :html5
 #page "/shop/summeressentials/top-blue.html", :layout => :html5
 #page "/shop/summeressentials/vichy-dress-babyblue.html", :layout => :html5
 
+page "/shop/fw1314/2-piece-coat-chiaro-m.html", :layout => :html5
+
+
 #
 # A path which all have the same layout
 # with_layout :admin do
