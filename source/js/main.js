@@ -64,9 +64,9 @@ $(document).ready(function() {
     $("#video").fitVids();
     var clientId = '974ab82ffc634d9eb5fc5e61f0df7023';
 
-    $(document).ready(function() {
-        swapWithGIF();
-    });
+
+    swapWithGIF();
+
 
 });
 
