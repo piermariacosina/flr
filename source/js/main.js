@@ -20,12 +20,14 @@ var $container1 = $('#stripesmania-list .list');
 var $container2 = $('#summeressentials-list .list');
 var $container3 = $('#ss-list .list');
 var $container4 = $('#fw-list .list');
+var $container5 = $('#people-list .list');
 
 
 $container1.isotope({ layoutMode : 'masonry' });
 $container2.isotope({ layoutMode : 'masonry' });
 $container3.isotope({ layoutMode : 'masonry' });
 $container4.isotope({ layoutMode : 'masonry' });
+$container5.isotope({ layoutMode : 'masonry' });
 
 function createPhotoElement(photo) {
 

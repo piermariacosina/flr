@@ -42,6 +42,8 @@ page "/stores.html", :layout => :html5
 page "/presskit/presskit.html", :layout => :html5
 page "/press.html", :layout => :html5
 page "/projects.html", :layout => :html5
+page "/people.html", :layout => :html5
+
 #page "/shop/list.html", :layout => :html5
 
 page "/shop/fw13-list.html", :layout => :html5
