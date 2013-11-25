@@ -11,6 +11,7 @@
 
 //= require "partials/swapGIF"
 //= require "partials/noconsole"
+//= require "partials/newsletter_submit"
 
 $(document).ready(function() {
     $("img").unveil();
@@ -65,7 +66,7 @@ $(document).ready(function() {
 
     $("#video").fitVids();
     var clientId = '974ab82ffc634d9eb5fc5e61f0df7023';
-
+    ajaxform_subscribe();
 
     swapWithGIF();
 
