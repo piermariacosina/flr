@@ -7,7 +7,7 @@ activate :deploy do |deploy|
 	deploy.user = "piermaria"
 	deploy.password = "Nonmelaricordo2"
 	deploy.path = "/home/piermaria/webapps/flavialarocca"
-	deploy.build_before = true
+	deploy.build_before = false
 	deploy.clean = true
 end
 
