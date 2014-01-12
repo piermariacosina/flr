@@ -7,28 +7,47 @@
 //= require "vendor/jquery.unveil.min"
 //= require "vendor/fancybox/lib/jquery.mousewheel-3.0.6.pack"
 //= require "vendor/fancybox/source/jquery.fancybox"
+//= require "vendor/dropit/dropit"
+//= require "vendor/imagesloaded"
 
 
 //= require "partials/swapGIF"
 //= require "partials/noconsole"
 //= require "partials/newsletter_submit"
-
-$(document).ready(function() {
-    $("img").unveil();
-    $('.fancybox').fancybox();
-});
 var $container1 = $('#stripesmania-list .list');
 var $container2 = $('#summeressentials-list .list');
 var $container3 = $('#ss-list .list');
 var $container4 = $('#fw-list .list');
 var $container5 = $('#people-list .list');
 
+$(document).ready(function() {
+    $("img").unveil();
+    $('.fancybox').fancybox();
+    $('.menu').dropit();
 
-$container1.isotope({ layoutMode : 'masonry' });
-$container2.isotope({ layoutMode : 'masonry' });
-$container3.isotope({ layoutMode : 'masonry' });
-$container4.isotope({ layoutMode : 'masonry' });
-$container5.isotope({ layoutMode : 'masonry' });
+});
+
+
+$container1.imagesLoaded( function() {
+    $container1.isotope({ layoutMode : 'masonry' });
+});
+
+$container2.imagesLoaded( function() {
+    $container2.isotope({ layoutMode : 'masonry' });
+});
+
+$container3.imagesLoaded( function() {
+    $container3.isotope({ layoutMode : 'masonry' });
+});
+
+$container4.imagesLoaded( function() {
+    $container4.isotope({ layoutMode : 'masonry' });
+});
+
+$container5.imagesLoaded( function() {
+    $container5.isotope({ layoutMode : 'masonry' });
+});
+
 
 function createPhotoElement(photo) {
 

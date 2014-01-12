@@ -182,7 +182,11 @@
 	overflow: hidden;
 	display: none;
 	z-index: 8010;
-	background: url('fancybox_overlay.png');
+	background: url('fancybox_overlay_white.png');
+}
+
+#ss-list .fancybox-overlay{
+    background: url('fancybox_overlay_white.png');
 }
 
 .fancybox-overlay-fixed {

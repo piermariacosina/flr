@@ -40,6 +40,7 @@ page "/newsletters/pressday2013_1.html", :layout => false
 page "/newsletters/summersale_tea2013.html", :layout => false
 page "/stores.html", :layout => :html5
 page "/presskit/presskit.html", :layout => :html5
+
 page "/press.html", :layout => :html5
 page "/projects.html", :layout => :html5
 page "/people.html", :layout => :html5
@@ -50,6 +51,7 @@ page "/wowcracy.html", :layout => :html5
 page "/shop/fw13-list.html", :layout => :html5
 
 page "/collections/fw13.html", :layout => :html5
+page "/collections/ss14.html", :layout => :html5
 
 #page "/shop/stripesmania/mini-skirt-stripes-green.html", :layout => :html5
 #page "/shop/stripesmania/minidress-stripes-red.html", :layout => :html5
@@ -77,22 +79,22 @@ page "/collections/fw13.html", :layout => :html5
 #page "/shop/summeressentials/vichy-dress-babyblue.html", :layout => :html5
 
 page "/shop/fw1314/2-piece-coat-chiaro.html", :layout => :html5
-page "/shop/fw1314/2-piece-coat-purple.html", :layout => :html5
+#page "/shop/fw1314/2-piece-coat-purple.html", :layout => :html5
 page "/shop/fw1314/2-piece-coat-scuro.html", :layout => :html5
-page "/shop/fw1314/2-piece-jacket-hood.html", :layout => :html5
+#page "/shop/fw1314/2-piece-jacket-hood.html", :layout => :html5
 page "/shop/fw1314/2-piece-minidress.html", :layout => :html5
 page "/shop/fw1314/2-piece-skirt-black.html", :layout => :html5
-page "/shop/fw1314/2-piece-skirt-pale.html", :layout => :html5
+#page "/shop/fw1314/2-piece-skirt-pale.html", :layout => :html5
 page "/shop/fw1314/2-piece-skirt-white.html", :layout => :html5
 page "/shop/fw1314/2-piece-top-jchiaro.html", :layout => :html5
-page "/shop/fw1314/2-piece-top-jchiaro-collov.html", :layout => :html5
-page "/shop/fw1314/2-piece-top-jscuro.html", :layout => :html5
+#page "/shop/fw1314/2-piece-top-jchiaro-collov.html", :layout => :html5
+#page "/shop/fw1314/2-piece-top-jscuro.html", :layout => :html5
 page "/shop/fw1314/2-piece-top-jscuronero.html", :layout => :html5
-page "/shop/fw1314/3-length-dress-purple.html", :layout => :html5
-page "/shop/fw1314/3-piece-skirt-dark.html", :layout => :html5
+#page "/shop/fw1314/3-length-dress-purple.html", :layout => :html5
+#page "/shop/fw1314/3-piece-skirt-dark.html", :layout => :html5
 page "/shop/fw1314/overall-black.html", :layout => :html5
 page "/shop/fw1314/overall-purple.html", :layout => :html5
-page "/shop/fw1314/overall-white.html", :layout => :html5
+#page "/shop/fw1314/overall-white.html", :layout => :html5
 page "/shop/fw1314/parka-chiaro.html", :layout => :html5
 page "/shop/fw1314/parka-scuro.html", :layout => :html5
 page "/shop/fw1314/parka-wool.html", :layout => :html5
