@@ -229,7 +229,7 @@
 	padding: 2px 20px;
 
 
-	color: #FFF;
+	color: purple;
 
 	line-height: 24px;
 	white-space: nowrap;
@@ -238,7 +238,7 @@
 .fancybox-title-outside-wrap {
 	position: relative;
 	margin-top: 10px;
-	color: #fff;
+	color: purple;
 }
 
 .fancybox-title-inside-wrap {
