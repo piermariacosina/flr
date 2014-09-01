@@ -143,7 +143,7 @@ configure :build do
   #activate :favicon_maker
   #activate :smusher
   # Enable cache buster
-  activate :asset_hash
+  #activate :asset_hash
 
   # Use relative URLs
   activate :relative_assets
